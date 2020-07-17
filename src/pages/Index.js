@@ -12,7 +12,7 @@ const Index = () => {
                 <p> I'm soon to be a full stack web developer with a flair for complex yet simple to read code. For
                     years I've been programming various things whether it be Arduinos to Chrome extensions to basic
                     websites.</p>
-                <p>I'm ready to take my career to the next step and become empployed as a full stack web developer.
+                <p>I'm ready to take my career to the next step and become employed as a full stack web developer.
                     Enjoy your stay here and please have a look and my work and reach out when you're ready.</p>
                 <p>I look forward to working with you.</p>
                 <p class="signiture">
