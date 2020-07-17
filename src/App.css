@@ -1,38 +1,241 @@
-.App {
+/* Global */
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  font-family: 'Oswald';
+  overflow: auto;
+}
+
+nav {
+  background-color: #595959;
+}
+
+nav .navbar-nav .active {
+  color: #edd521!important;
+}
+
+.spacer-nav {
+  height: 56px;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+h1 {
+  z-index: 2;
+}
+
+.page-heading {
+  font-size: 4rem;
+}
+
+h3 {
+  z-index: 2;
+}
+
+div.row {
+  width: 100%;
+  margin: 0;
+}
+
+.spacer-footer {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+a i {
+  color: #f8f9fa;
+}
+
+a i:hover {
+  color: #bfbfbf;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #595959;
+}
+
+/* About Me */
+
+.feature-section {
+  background-color: #edd521;
+  overflow: hidden;
+  position: relative;
+}
+
+.feature-section::after {
+  content: "";
+  position: absolute;
+  height: 65vh;
+  width: 65vh;
+  background-color: #e0c709;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(-50%, 50%);
+}
+
+.feature-section::before {
+  content: "";
+  position: absolute;
+  height: 50vh;
+  width: 50vh;
+  background-color: #edd521;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  transform: translate(-50%, 50%);
+}
+
+.hero-image {
+  background-image: url(assets/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #f1f1f1;
+}
+
+.about-text {
+  font-family: 'Merriweather';
+}
+
+.signiture {
+  font-family: 'Shadows Into Light';
+  font-size: 2em;
+}
+
+/* Portfolio */
+
+.portfolio-hero {
+  height: 30vh;
+  background-color: #edd521;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-hero::before {
+  content: "";
+  position: absolute;
+  height: 85vh;
+  width: 145vw;
+  background-color: transparent;
+  border-radius: 50%;
+  bottom: -15vh;
+  left: 0;
+  z-index: 2;
+  transform: translate(-50%, 50%);
+  border: 70px #e0c709 solid ;
+}
+
+.card {
+  font-family: 'Merriweather';
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.card-img-top {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top img {
+  transition: transform 0.2s;
+}
+
+.card-img-top img:hover {
+  transform: scale(1.25);
+}
+
+.card-img-top .card-banner {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  background-color: #edd521;
+  font-family: 'Oswald';
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img-top .card-banner h5 {
+  padding: 6px;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.git-icon {
+  margin-bottom: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.card-body i {
+  color: #595959;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body i:hover {
+  color: #edd521;
+}
+
+/* Contact */
+
+.social-links {
+  font-size: 4rem;
+}
+
+.social-links i {
+  color: #343a40;
+  margin: 0 20px;
+}
+
+.social-links i:hover {
+  color: #e0c709;
+}
+
+input {
+  width: 100%;
+}
+
+input.message {
+  height: 10rem;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 10rem;
+}
+
+.contact-button {
+  background-color: #edd521;
+  color: black;
+}
+
+.contact-button:hover {
+  background-color: #e0c709;
+  color: black    ;
+}
+
+.contact-button:active{
+  background-color: #d6be09;
 }
