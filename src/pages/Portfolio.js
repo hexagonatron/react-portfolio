@@ -10,42 +10,42 @@ const Portfolio = () => {
             title:"Hexagonal Minesweeper",
             description:"Hexagonal minesweeper made with Javascript, HTML and CSS",
             deployedUrl:"https://hexagonatron.github.io/HexagonalMinesweeper/",
-            thumbnailPath:"/img/hex-sweeper.jpg",
+            thumbnailPath:"img/hex-sweeper.jpg",
             githubUrl:"https://github.com/hexagonatron/HexagonalMinesweeper"
         },
         {
             title:"Full-Stack E-Commerce App",
             description:"An E-commerce store using Vue, MySQL, Node and Express.",
             deployedUrl:"https://lion-movie-store.herokuapp.com/",
-            thumbnailPath:"/img/movie-store.jpg",
+            thumbnailPath:"img/movie-store.jpg",
             githubUrl:"https://github.com/hexagonatron/LionStoreApp"
         },
         {
             title:"Movie Guessing Game",
             description:"A movie guessing game that makes api calls to the OMDb api with javascript logic and custom CSS",
             deployedUrl:"https://hexagonatron.github.io/MovieMash/play.html",
-            thumbnailPath:"/img/movie-mash.jpg",
+            thumbnailPath:"img/movie-mash.jpg",
             githubUrl:"https://github.com/hexagonatron/MovieMash"
         },
         {
             title:"Password Generator",
             description:"A simple password generator using JQuery and custom CSS",
             deployedUrl:"https://hexagonatron.github.io/AnotherPasswordGenerator/",
-            thumbnailPath:"/img/pass-gen.jpg",
+            thumbnailPath:"img/pass-gen.jpg",
             githubUrl:"https://github.com/hexagonatron/AnotherPasswordGenerator"
         },
         {
             title:"Git Commit Scoreboard",
             description:"A class scoreboard that utilises the Github API built using NodeJS and Javascript.",
             deployedUrl:"https://git-commit-scoreboard.herokuapp.com/",
-            thumbnailPath:"/img/git-board.jpg",
+            thumbnailPath:"img/git-board.jpg",
             githubUrl:"https://github.com/hexagonatron/GitCommitScoreBoardV2"
         },
         {
             title:"Giphy Boggle",
             description:"A group project that combines the Giphy API with a boggle API to make a fun word game. The layout utilises the CSS framework Semantic UI.",
             deployedUrl:"https://teamcabbn.github.io/GiphyBoggle/",
-            thumbnailPath:"/img/giphy-boggle.jpg",
+            thumbnailPath:"img/giphy-boggle.jpg",
             githubUrl:"https://github.com/TeamCABBN/GiphyBoggle"
         },
         {
@@ -59,7 +59,7 @@ const Portfolio = () => {
             title:"Daily Planner App",
             description:"An app to track daily tasks.",
             deployedUrl:"https://hexagonatron.github.io/DailyPlanner/",
-            thumbnailPath:"/img/daily-planner.jpg",
+            thumbnailPath:"img/daily-planner.jpg",
             githubUrl:"https://github.com/hexagonatron/DailyPlanner"
         },
     ]
