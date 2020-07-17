@@ -8,7 +8,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename='/'>
       <App />
     </HashRouter>
   </React.StrictMode>,
